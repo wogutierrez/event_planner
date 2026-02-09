@@ -9,16 +9,52 @@ const EventPlanner = () => {
             </header>
 
              {/* Section for describing the purpose or overview of the app */}
+
             <section className="description">
                 {/* Description content goes here */}
                 <p>
                 Plan and organize your events effortlessly with Event Planner. From
                 birthdays to corporate meetings, we've got you covered.
                 </p>
+                {/*Primary call-to-action button to encourage users to sign up or explore the app*/}
+                <button className="get-started-button">Get Started</button>
+
             </section>
+
             {/* Section to list or categorize different types of events */}
             <section className="events_categories">
                 {/* Event categories content goes here */}
+                    <ul>
+                        <h2>Social Events</h2>
+                        <li>Birthday parties</li>
+                        <li>Anniversary celebrations</li>
+                        <li>Wedding receptions</li>
+                        <li>Baby showers</li>
+                        <li>Graduation parties</li>
+                        <li>Family reunions</li>
+                    </ul>
+                    <ul>
+                        <h2>Entertainment Events:</h2>
+                        <li>Concerts</li>
+                        <li>Music festivals</li>
+                        <li>Film screenings</li>
+                        <li>Comedy shows</li>
+                        <li>Art exhibitions</li>
+                        <li>Cultural events</li>
+                    </ul>
+                    {/* Community-focused event types */}
+                    <ul>
+                        <h2>Community Events:</h2>
+                        <li>Fundraising events</li>
+                        <li>Charity galas</li>
+                        <li>Volunteer drives</li>
+                        <li>Neighborhood block parties</li>
+                        <li>Community festivals</li>
+                        <li>Cultural celebrations</li>
+                    </ul>
+
+
+
             </section>
             {/* Section to highlight app features or functionalities */}
             <section className="features">
